@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sagarjat_docker_sample_nginx_1710394736169-push-trigger-input-set
+  identifier: Build_sagarjat_docker_sample_nginx_1710394736169pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sagarjat_docker_sample_nginx_1710394736169
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
